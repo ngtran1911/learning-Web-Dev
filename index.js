@@ -1,21 +1,15 @@
-// var = container store a value 
+// How to accept user input
+let age;
+let username;
 
-// declare : let x
-// assign x = 10
+//1. easy = window prompt
+//age = window.prompt("what is your age")
 
-// practice declare var and console syntax 
-let famName = "tran";
-let age = 25;
-let email = "ngoctran@gmail.com"
+//2. professional way = html text box 
+document.getElementById("button").onclick = function() {
+    username = document.getElementById("input-box").value;
+    document.getElementById("welcom").textContent = `Hello ${username}`;
+    console.log(username);
+}
 
-console.log(typeof age);
-console.log(`My name is ${famName}`);
-console.log(`My gmail is ${email}`)
-
-// boolean
-let ontime = true ;
-let IsAstudent = true;
-
-console.log(`Tran is ontime: ${ontime} `)
-console.log(`Enrolled = Student: ${IsAstudent}`)
 
