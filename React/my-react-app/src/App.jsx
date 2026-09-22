@@ -1,16 +1,10 @@
-import Card from './Card'
 
+import ProfilePic from "./ProfilePic"
 
 function App(){
-  return(
-      <>
-        <Card></Card>
-        <Card></Card>
-        <Card></Card>
-        <Card></Card>
-        <Card></Card>
-        <Card></Card>
-      </>
+  
+  return(    
+    <ProfilePic></ProfilePic>
   );
 } 
 
