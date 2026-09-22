@@ -1,15 +1,13 @@
 //REACT hook  = special function that allows functional components 
 //              to use React  feature wihtout create class components
 //              (usseState, useEffect, useContext, useReducer, useCallback...) 
-import Counter from "./CounterApp/Counter";
-import "./CounterApp/counterStyle.css";
+import Component from "./Components";
 
 function App(){
   
   return(    
     <div>
-      
-      <Counter></Counter>
+      <Component></Component>
     </div>
   );
 } 
