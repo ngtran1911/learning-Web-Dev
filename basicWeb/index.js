@@ -1,6 +1,6 @@
 // How to accept user input
 let age;
-let username;
+let username ;
 
 //1. easy = window prompt
 //age = window.prompt("what is your age")
