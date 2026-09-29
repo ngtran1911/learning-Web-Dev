@@ -1,13 +1,13 @@
 //REACT hook  = special function that allows functional components 
 //              to use React  feature wihtout create class components
 //              (usseState, useEffect, useContext, useReducer, useCallback...) 
-import Component from "./Components";
-
+import ColorPicker from "./colorPickerApp/ColorPicker";
+import "./colorPickerApp/style.css"
 function App(){
   
   return(    
     <div>
-      <Component></Component>
+      <ColorPicker></ColorPicker>
     </div>
   );
 } 
